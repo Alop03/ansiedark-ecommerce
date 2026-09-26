@@ -1,16 +1,22 @@
-# React + Vite
+# Ansiedark E-commerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Aplicación web de comercio electrónico para Ansiedark, una joyería por suscripción dirigida a personas que hacen de su identidad una estética.
 
-Currently, two official plugins are available:
+El proyecto se desarrolla de forma incremental como parte del curso de React JS de Coderhouse. En las próximas etapas incorporará catálogo, categorías, detalle de productos, carrito de compras, autenticación, Firebase y generación de órdenes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tecnologías utilizadas
 
-## React Compiler
+- React
+- Vite
+- JavaScript
+- CSS
+- Oxlint
+- Git y GitHub
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Instalación
 
-## Expanding the Oxlint configuration
+Clonar el repositorio:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```bash
+git clone https://github.com/Alop03/ansiedark-ecommerce.git
+
