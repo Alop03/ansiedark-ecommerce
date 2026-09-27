@@ -1,12 +1,20 @@
+import Navbar from "./components/Navbar"
 import BrandPresentation from "./components/BrandPresentation"
 import "./App.css"
 
-// Organiza la vista principal de la aplicación.
+// Organiza la navegación y el contenido principal de la aplicación.
 function App() {
     return (
-        <main className="presentacion">
-            <BrandPresentation />
-        </main>
+        <>
+            <Navbar />
+
+            <main
+                id="inicio"
+                className="presentacion"
+            >
+                <BrandPresentation />
+            </main>
+        </>
     )
 }
 
