@@ -2,7 +2,7 @@
 
 .presentacion {
     display: grid;
-    min-height: calc(100vh - 88px);
+    min-height: 100vh;
     place-items: center;
     padding: 32px;
     background:
@@ -64,9 +64,7 @@
 
 @media (max-width: 600px) {
     .presentacion {
-        min-height: calc(100vh - 154px);
         padding: 24px;
-        
     }
 
     .presentacion__contenido {
